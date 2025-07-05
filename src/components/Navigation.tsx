@@ -19,7 +19,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <img 
-              src="/lovable-uploads/ce269598-af01-49b8-b103-3e01f5bd140c.png" 
+              src="/assets/ce269598-af01-49b8-b103-3e01f5bd140c.png" 
               alt="Logo Criança Escolhida" 
               className="w-10 h-10 mr-3"
             />
@@ -39,12 +39,6 @@ const Navigation = () => {
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               Parcerias
-            </button>
-            <button
-              onClick={() => scrollToSection('doacoes')}
-              className="text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Doações
             </button>
             <Button 
               onClick={() => scrollToSection('doacoes')}
@@ -82,12 +76,6 @@ const Navigation = () => {
                 className="block w-full text-left text-muted-foreground hover:text-foreground transition-colors py-2"
               >
                 Parcerias
-              </button>
-              <button
-                onClick={() => scrollToSection('doacoes')}
-                className="block w-full text-left text-muted-foreground hover:text-foreground transition-colors py-2"
-              >
-                Doações
               </button>
               <Button 
                 onClick={() => scrollToSection('doacoes')}

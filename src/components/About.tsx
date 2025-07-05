@@ -45,15 +45,15 @@ const About = () => {
 
         <div className="bg-accent rounded-lg p-8">
           <h3 className="text-2xl font-bold mb-4 text-center text-foreground">
-            Campanha Semana da Criança 2024
+            Campanha Semana da Criança 2025
           </h3>
           <p className="text-center text-muted-foreground mb-6">
-            Durante a Semana da Criança, nossa meta é arrecadar brinquedos para mais de 500 crianças 
+            Durante a Semana da Criança, nossa meta é arrecadar brinquedos para mais de 200 crianças 
             de comunidades carentes da região. Cada doação faz a diferença e ajuda a construir sorrisos genuínos.
           </p>
           <div className="text-center">
             <span className="inline-block bg-secondary text-secondary-foreground px-4 py-2 rounded-full font-semibold">
-              Meta: 500 Crianças Beneficiadas
+              Meta: 200 Crianças Beneficiadas
             </span>
           </div>
         </div>

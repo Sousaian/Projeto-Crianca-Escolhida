@@ -8,7 +8,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center mb-4">
               <img 
-                src="/lovable-uploads/ce269598-af01-49b8-b103-3e01f5bd140c.png" 
+                src="/assets/ce269598-af01-49b8-b103-3e01f5bd140c.png" 
                 alt="Logo Criança Escolhida" 
                 className="w-12 h-12 mr-3"
               />
@@ -70,7 +70,7 @@ const Footer = () => {
             </span>
           </div>
           <p className="text-background/60 text-sm">
-            © 2024 ONG Criança Escolhida. CNPJ: 12.345.678/0001-90
+            © 2025 ONG Criança Escolhida.
           </p>
         </div>
       </div>

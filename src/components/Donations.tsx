@@ -93,10 +93,6 @@ const Donations = () => {
             </div>
 
             <div className="text-center">
-              <p className="text-sm text-muted-foreground mb-4">
-                CNPJ: 12.345.678/0001-90<br />
-                ONG Criança Escolhida
-              </p>
               <p className="text-xs text-muted-foreground">
                 Sua doação é 100% direcionada para a compra de brinquedos e materiais para as crianças.
                 Emitimos recibo para todas as doações.
@@ -105,7 +101,7 @@ const Donations = () => {
           </div>
         </div>
 
-        <div className="mt-12 text-center">
+        {/* <div className="mt-12 text-center">
           <h4 className="text-xl font-semibold mb-4 text-foreground">
             Pontos de Coleta de Brinquedos
           </h4>
@@ -123,7 +119,7 @@ const Donations = () => {
               <p className="text-sm text-muted-foreground">Shopping Center - Loja 89</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
