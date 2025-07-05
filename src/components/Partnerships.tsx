@@ -31,8 +31,9 @@ const Partnerships = () => {
   return (
     <section id="parcerias" className="py-20 px-4 bg-muted/30">
       <div className="max-w-6xl mx-auto">
+      {/*<div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">
+           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">
             Nossos Parceiros
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
@@ -60,7 +61,7 @@ const Partnerships = () => {
               </div>
             );
           })}
-        </div>
+        </div> */}
 
         <div className="text-center bg-card p-8 rounded-lg border">
           <h3 className="text-2xl font-bold mb-4 text-foreground">
@@ -72,16 +73,16 @@ const Partnerships = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="mailto:contato@criancaescolhida.org" 
+              href="mailto:Criancaescolhida@gmail.com" 
               className="inline-flex items-center justify-center px-6 py-3 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors font-medium"
             >
               Entrar em Contato
             </a>
             <a 
-              href="tel:+5511999999999"
+              href="https://wa.me/556296532275"
               className="inline-flex items-center justify-center px-6 py-3 border border-primary text-primary rounded-md hover:bg-primary hover:text-primary-foreground transition-colors font-medium"
             >
-              (11) 99999-9999
+              (62) 9653-2275
             </a>
           </div>
         </div>

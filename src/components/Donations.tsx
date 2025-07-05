@@ -1,11 +1,12 @@
-import { Copy, QrCode, Heart, Gift, Smartphone } from "lucide-react";
+import { Copy, Heart, Gift, Smartphone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
+import QRCode from "react-qr-code";
 
 const Donations = () => {
   const { toast } = useToast();
   
-  const pixKey = "criancaescolhida@exemplo.com";
+  const pixKey = "7c0db499-365c-48f4-8bf8-ca303b502c34";
   
   const copyPixKey = () => {
     navigator.clipboard.writeText(pixKey);
@@ -64,13 +65,18 @@ const Donations = () => {
 
         <div className="bg-gradient-to-br from-primary/10 to-secondary/10 rounded-2xl p-8 border">
           <div className="text-center mb-8">
-            <QrCode className="w-16 h-16 mx-auto mb-4 text-primary" />
             <h3 className="text-2xl font-bold mb-4 text-foreground">
               Doação via PIX
             </h3>
             <p className="text-muted-foreground mb-6">
               Use nossa chave PIX para fazer sua doação de forma rápida e segura
             </p>
+          </div>
+
+          <div className="flex justify-center mb-8">
+            <div style={{ background: "#fff", padding: 8, borderRadius: 8 }}>
+              <QRCode value={pixKey} style={{ width: 128, height: 128 }} title="QR Code para doação via PIX" />
+            </div>
           </div>
 
           <div className="max-w-md mx-auto">

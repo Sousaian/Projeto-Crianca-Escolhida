@@ -19,11 +19,8 @@ const Footer = () => {
               Juntos, fazemos a diferença na vida de centenas de crianças.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-background/80 hover:text-background transition-colors">
+              <a href="https://www.instagram.com/criancaescolhida/" className="text-background/80 hover:text-background transition-colors">
                 <Instagram className="w-5 h-5" />
-              </a>
-              <a href="#" className="text-background/80 hover:text-background transition-colors">
-                <Facebook className="w-5 h-5" />
               </a>
             </div>
           </div>
@@ -33,15 +30,21 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center">
                 <Mail className="w-4 h-4 mr-3 text-background/80" />
-                <span className="text-background/80">contato@criancaescolhida.org</span>
+                <span className="text-background/80">Criancaescolhida@gmail.com</span>
               </div>
               <div className="flex items-center">
                 <Phone className="w-4 h-4 mr-3 text-background/80" />
-                <span className="text-background/80">(11) 99999-9999</span>
+                <a
+                  href="https://wa.me/556296532275"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-background/80 hover:text-background transition-colors">
+                    62 9653-2275
+                  </a>
               </div>
               <div className="flex items-center">
                 <MapPin className="w-4 h-4 mr-3 text-background/80" />
-                <span className="text-background/80">São Paulo, SP</span>
+                <span className="text-background/80">Aparecida de Goiânia, GO</span>
               </div>
             </div>
           </div>
